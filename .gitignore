@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+secrets.local.json
+dist/
+.build-*/
+.DS_Store
+*.log
+.pytest_cache/

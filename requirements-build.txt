@@ -1,0 +1,12 @@
+# Python 3.12。在本机执行 python tools/build_desktop.py 生成未签名的 macOS 应用。
+-r requirements.txt
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.8
+altgraph==0.17.5
+macholib==1.16.4; sys_platform == 'darwin'
+pyobjc-core==12.2.2; sys_platform == 'darwin'
+pyobjc-framework-cocoa==12.2.2; sys_platform == 'darwin'
+pyobjc-framework-quartz==12.2.2; sys_platform == 'darwin'
+pyobjc-framework-security==12.2.2; sys_platform == 'darwin'
+pyobjc-framework-uniformtypeidentifiers==12.2.2; sys_platform == 'darwin'
+pyobjc-framework-webkit==12.2.2; sys_platform == 'darwin'

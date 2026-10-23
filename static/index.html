@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>家庭账本</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">
+        <strong>家庭账本</strong>
+        <small id="household">家里的收支</small>
+      </div>
+      <nav id="nav"></nav>
+    </aside>
+    <main>
+      <header class="top">
+        <h1 id="heading">总览</h1>
+        <div id="range" class="range"></div>
+      </header>
+      <div id="view"></div>
+    </main>
+  </div>
+  <div id="toast" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>
